@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get update && mkdir -p /opt/java/openjdk
 
 RUN set -eux; \
-    apt-get install curl; \
+    apt-get -y install curl; \
     ARCH="$(uname -i)"; \
     case "${ARCH}" in \
        amd64|x86_64) \
