@@ -7,7 +7,7 @@ RUN set -eux; \
     ARCH="$(uname -i)"; \
     case "${ARCH}" in \
        amd64|x86_64) \
-         ESUM='e28fbe8628fe1949e3b766d90f36ab5d15ac77f4e0279f58da80de361a99d7aa'; \
+         ESUM='adccaaddf6e62b612499942616c33bf74e6a6ddb6236c2e3d466bb45450cd638'; \
          BINARY_URL='https://github.com/bharathappali/openj9-ubuntu-builds/raw/master/build/jdk11/x86_64/ubuntu16/openj9-jdk11-ubuntu.tar.gz'; \
          ;; \
          *) \
